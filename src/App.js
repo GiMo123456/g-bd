@@ -13,7 +13,16 @@ const App = () => {
   const today = new Date();
   const finalMessage = "HHappy birthday to my favorite little anxious ball 💛\nNow go take a nap and rewatch Friends… you've earned it haha 🍟";
   const isMay30 = today.getMonth() === 4 && today.getDate() === 30; // May = month 4 (0-indexed)
-
+console.log('isBirthday:', isBirthday);
+console.log('step:', step);
+console.log('showMessage:', showMessage);
+console.log('showCredits:', showCredits);
+console.log('typedText:', typedText);
+console.log('showLetter:', showLetter);
+console.log('today:', today);
+console.log('isMay30:', isMay30);
+console.log('questions:', questions);
+console.log('finalMessage:', finalMessage);
   
   
 
