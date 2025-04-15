@@ -21,7 +21,6 @@ console.log('typedText:', typedText);
 console.log('showLetter:', showLetter);
 console.log('today:', today);
 console.log('isMay30:', isMay30);
-console.log('questions:', questions);
 console.log('finalMessage:', finalMessage);
   
   
@@ -73,6 +72,7 @@ console.log('finalMessage:', finalMessage);
       answer: "In your heart 💛",
     }
   ];
+  console.log('questions:', questions);
 
   const handleAnswer = (option) => {
     if (option === questions[step].answer) {
